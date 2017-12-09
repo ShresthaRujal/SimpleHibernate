@@ -1,0 +1,120 @@
+01:16:05:076	1eb0	Check and remove old log files...
+01:16:05:090	1eb0	args: -epool us1.ethermine.org:4444 -ewal 0xB8C788fBc71a9B8d17Fd8E8bC6915CC8579E3281 
+01:16:05:101	1eb0	
+01:16:05:235	1eb0	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+01:16:05:242	1eb0	บ     Claymore's Dual ETH + DCR/SC/LBC/PASC GPU Miner v10.2      บ
+01:16:05:249	1eb0	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+01:16:05:259	1eb0	
+01:16:05:468	1eb0	ETH: 1 pool is specified
+01:16:05:480	1eb0	Main Ethereum pool is us1.ethermine.org:4444
+01:16:05:493	1eb0	DCR: 0 pool is specified
+01:16:05:803	1eb0	OpenCL platform: Intel(R) OpenCL
+01:16:05:807	1eb0	OpenCL platform: NVIDIA CUDA
+01:16:05:810	1eb0	AMD OpenCL platform not found 
+01:16:06:440	1eb0	CUDA initializing...
+
+01:16:06:444	1eb0	NVIDIA Cards available: 1 
+01:16:06:448	1eb0	CUDA Driver Version/Runtime Version: 8.0/8.0
+01:16:06:454	1eb0	GPU #0: GeForce 840M, 2048 MB available, 3 compute units, capability: 5.0
+
+01:16:06:459	1eb0	Total cards: 1 
+01:16:10:467	1eb0	No AMD cards in the list, ADL library will not be used.
+01:16:10:696	1eb0	NVML version: 8.369.09
+01:16:10:842	1db4	ETH: Stratum - connecting to 'us1.ethermine.org' <192.95.30.210> port 4444
+01:16:10:934	1eb0	No pool specified for Decred! Ethereum-only mining mode is enabled
+01:16:10:947	1eb0	ETHEREUM-ONLY MINING MODE ENABLED (-mode 1)
+01:16:10:960	1eb0	ETH: eth-proxy stratum mode
+01:16:10:974	1eb0	Watchdog enabled
+01:16:10:982	1eb0	Remote management (READ-ONLY MODE) is enabled on port 3333
+01:16:10:991	1eb0	
+01:16:11:102	1db4	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0xB8C788fBc71a9B8d17Fd8E8bC6915CC8579E3281", ""], "id": 2, "method": "eth_submitLogin"}
+
+01:16:11:116	1db4	ETH: Stratum - Connected (us1.ethermine.org:4444)
+01:16:11:361	1db4	got 39 bytes
+01:16:11:378	1db4	buf: {"id":2,"jsonrpc":"2.0","result":true}
+
+01:16:11:388	1db4	parse packet: 38
+01:16:11:395	1db4	ETH: Authorized
+01:16:11:407	1db4	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+01:16:11:416	1db4	new buf size: 0
+01:16:11:505	2600	NVML: cannot get fan speed, error 3
+01:16:11:669	1db4	got 248 bytes
+01:16:11:683	1db4	buf: {"id":3,"jsonrpc":"2.0","result":["0x811d0a740b6f6b15ea4eed3112d3a280aca4aecb4f924cb529f5ed80ff41ae0d","0x7b1e42ac7d205c8da33a3dea0e5fd6aa0261c13f0a8e451454721085d1323eec","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x477acd"]}
+
+01:16:11:698	1db4	parse packet: 247
+01:16:11:705	1db4	ETH: job changed
+01:16:11:711	1db4	new buf size: 0
+01:16:11:780	2570	Setting DAG epoch #156...
+01:16:14:319	2570	Setting DAG epoch #156 for GPU0
+01:16:14:325	2570	Create GPU buffer for GPU0
+01:16:14:331	2570	CUDA error - cannot allocate big buffer for DAG. Check readme.txt for possible solutions.
+01:16:14:509	2600	NVML: cannot get fan speed, error 3
+01:16:14:611	1db4	got 248 bytes
+01:16:14:620	1db4	buf: {"id":0,"jsonrpc":"2.0","result":["0x922ee0207776ce03cf3b1d3ab156b7892399356aca649e7b8ac30c21e251861d","0x7b1e42ac7d205c8da33a3dea0e5fd6aa0261c13f0a8e451454721085d1323eec","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x477ace"]}
+
+01:16:14:632	1db4	parse packet: 247
+01:16:14:640	1db4	ETH: job changed
+01:16:14:647	1db4	new buf size: 0
+01:16:14:654	1db4	ETH: 12/06/17-01:16:14 - New job from us1.ethermine.org:4444
+01:16:14:661	1db4	target: 0x0000000112e0be82 (diff: 4000MH), epoch 156(2.22GB)
+01:16:14:667	1db4	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+01:16:14:671	1db4	ETH: GPU0 0.000 Mh/s
+01:16:16:734	1db4	got 248 bytes
+01:16:16:747	1db4	buf: {"id":0,"jsonrpc":"2.0","result":["0x2cd4c26b0a3e07ddddf7faa5e86c469c5157bad04a245dc8aee61ad8b7f90f1c","0x7b1e42ac7d205c8da33a3dea0e5fd6aa0261c13f0a8e451454721085d1323eec","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x477acf"]}
+
+01:16:16:759	1db4	parse packet: 247
+01:16:16:768	1db4	ETH: job changed
+01:16:16:774	1db4	new buf size: 0
+01:16:16:782	1db4	ETH: 12/06/17-01:16:16 - New job from us1.ethermine.org:4444
+01:16:16:789	1db4	target: 0x0000000112e0be82 (diff: 4000MH), epoch 156(2.22GB)
+01:16:16:795	1db4	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+01:16:16:799	1db4	ETH: GPU0 0.000 Mh/s
+01:16:17:433	2570	Set global fail flag, failed GPU0
+01:16:17:447	2570	GPU 0 failed
+01:16:17:457	2210	Setting DAG epoch #156 for GPU0
+01:16:17:465	2210	GPU 0, CUDA error 11 - cannot write buffer for DAG
+01:16:17:515	2600	NVML: cannot get fan speed, error 3
+01:16:20:474	2210	Set global fail flag, failed GPU0
+01:16:20:487	2210	GPU 0 failed
+01:16:20:522	2600	NVML: cannot get fan speed, error 3
+01:16:21:726	1db4	ETH: checking pool connection...
+01:16:21:764	1db4	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+01:16:22:020	1db4	got 248 bytes
+01:16:22:027	1db4	buf: {"id":3,"jsonrpc":"2.0","result":["0x2cd4c26b0a3e07ddddf7faa5e86c469c5157bad04a245dc8aee61ad8b7f90f1c","0x7b1e42ac7d205c8da33a3dea0e5fd6aa0261c13f0a8e451454721085d1323eec","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x477acf"]}
+
+01:16:22:031	1db4	parse packet: 247
+01:16:22:035	1db4	ETH: job is the same
+01:16:22:041	1db4	new buf size: 0
+01:16:23:537	2600	NVML: cannot get fan speed, error 3
+01:16:26:552	2600	NVML: cannot get fan speed, error 3
+01:16:29:566	2600	NVML: cannot get fan speed, error 3
+01:16:31:723	1db4	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x0", "0x00000000000000000000000000000000000000000000000000000000f4fece67"]}
+
+01:16:31:786	1db4	ETH: checking pool connection...
+01:16:31:798	1db4	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+01:16:31:984	1db4	got 39 bytes
+01:16:31:996	1db4	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+01:16:32:007	1db4	parse packet: 38
+01:16:32:014	1db4	new buf size: 0
+01:16:32:230	1db4	got 248 bytes
+01:16:32:242	1db4	buf: {"id":3,"jsonrpc":"2.0","result":["0x2cd4c26b0a3e07ddddf7faa5e86c469c5157bad04a245dc8aee61ad8b7f90f1c","0x7b1e42ac7d205c8da33a3dea0e5fd6aa0261c13f0a8e451454721085d1323eec","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x477acf"]}
+
+01:16:32:253	1db4	parse packet: 247
+01:16:32:261	1db4	ETH: job is the same
+01:16:32:269	1db4	new buf size: 0
+01:16:32:865	2600	NVML: cannot get fan speed, error 3
+01:16:35:647	1ba0	em hbt: 0, fm hbt: 31, 
+01:16:35:651	1ba0	watchdog - thread 0 (gpu0), hb time 18172
+01:16:35:655	1ba0	watchdog - thread 1 (gpu0), hb time 18172
+01:16:35:660	1ba0	WATCHDOG: GPU error, you need to restart miner :( 
+01:16:35:665	1ba0	NVML: cannot get fan speed, error 3
+01:16:35:871	2600	NVML: cannot get fan speed, error 3
+01:16:35:891	2600	NVML: cannot get fan speed, error 3
+01:16:35:911	2600	GPU0 t=48C fan=0%
+01:16:36:772	1ba0	Restarting OK, exit...
+
+

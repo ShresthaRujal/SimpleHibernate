@@ -1,0 +1,62 @@
+00:59:21:880	16f0	Check and remove old log files...
+00:59:21:893	16f0	args: -epool us1.ethermine.org:4444 -ewal 0xB8C788fBc71a9B8d17Fd8E8bC6915CC8579E3281.Rig1 -epsw x 
+00:59:21:906	16f0	
+00:59:21:936	16f0	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+00:59:21:944	16f0	บ     Claymore's Dual ETH + DCR/SC/LBC/PASC GPU Miner v10.2      บ
+00:59:21:951	16f0	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+00:59:21:959	16f0	
+00:59:22:168	16f0	ETH: 1 pool is specified
+00:59:22:181	16f0	Main Ethereum pool is us1.ethermine.org:4444
+00:59:22:195	16f0	DCR: 0 pool is specified
+00:59:23:352	16f0	OpenCL platform: Intel(R) OpenCL
+00:59:23:365	16f0	OpenCL platform: NVIDIA CUDA
+00:59:23:378	16f0	AMD OpenCL platform not found 
+00:59:24:213	16f0	CUDA initializing...
+
+00:59:24:218	16f0	NVIDIA Cards available: 1 
+00:59:24:223	16f0	CUDA Driver Version/Runtime Version: 8.0/8.0
+00:59:24:231	16f0	GPU #0: GeForce 840M, 2048 MB available, 3 compute units, capability: 5.0
+
+00:59:24:237	16f0	Total cards: 1 
+00:59:27:444	16f0	No AMD cards in the list, ADL library will not be used.
+00:59:27:763	16f0	NVML version: 8.369.09
+00:59:28:229	2774	NVML: cannot get fan speed, error 3
+00:59:28:301	16f0	No pool specified for Decred! Ethereum-only mining mode is enabled
+00:59:28:316	16f0	ETHEREUM-ONLY MINING MODE ENABLED (-mode 1)
+00:59:28:327	154	ETH: Stratum - connecting to 'us1.ethermine.org' <149.56.26.221> port 4444
+00:59:28:328	16f0	ETH: eth-proxy stratum mode
+00:59:28:348	16f0	Watchdog enabled
+00:59:28:354	16f0	Remote management (READ-ONLY MODE) is enabled on port 3333
+00:59:28:358	16f0	
+00:59:28:612	154	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0xB8C788fBc71a9B8d17Fd8E8bC6915CC8579E3281.Rig1", "x"], "id": 2, "method": "eth_submitLogin"}
+
+00:59:28:627	154	ETH: Stratum - Connected (us1.ethermine.org:4444)
+00:59:28:876	154	got 39 bytes
+00:59:28:888	154	buf: {"id":2,"jsonrpc":"2.0","result":true}
+
+00:59:28:901	154	parse packet: 38
+00:59:28:913	154	ETH: Authorized
+00:59:28:920	154	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+00:59:28:925	154	new buf size: 0
+00:59:29:181	154	got 248 bytes
+00:59:29:193	154	buf: {"id":3,"jsonrpc":"2.0","result":["0xe35986f8d039002d6b393a719c083715f9f78a187e9f4e45deb0bcdd82e83853","0x7b1e42ac7d205c8da33a3dea0e5fd6aa0261c13f0a8e451454721085d1323eec","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x477a98"]}
+
+00:59:29:206	154	parse packet: 247
+00:59:29:218	154	ETH: job changed
+00:59:29:224	154	new buf size: 0
+00:59:29:287	c84	Setting DAG epoch #156...
+00:59:31:301	2774	NVML: cannot get fan speed, error 3
+01:00:17:341	2774	NVML: cannot get fan speed, error 3
+00:59:39:239	154	ETH: checking pool connection...
+00:59:52:345	2548	em hbt: 13093, fm hbt: 78, 
+01:00:17:383	2548	Temperature control thread hangs, need to restart miner!
+01:00:17:370	154	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+01:00:17:337	c84	Setting DAG epoch #156 for GPU0
+01:00:17:412	2548	NVML: cannot get fan speed, error 3
+01:00:17:421	c84	Create GPU buffer for GPU0
+01:00:17:428	c84	CUDA error - cannot allocate big buffer for DAG. Check readme.txt for possible solutions.
+01:00:18:525	2548	Restarting OK, exit...
+
+

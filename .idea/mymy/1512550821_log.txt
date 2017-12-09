@@ -1,0 +1,139 @@
+01:00:21:162	f88	Check and remove old log files...
+01:00:21:175	f88	args: -epool us1.ethermine.org:4444 -ewal 0xB8C788fBc71a9B8d17Fd8E8bC6915CC8579E3281.Rig1 -epsw x 
+01:00:28:974	f88	
+01:00:28:979	f88	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+01:00:28:983	f88	บ     Claymore's Dual ETH + DCR/SC/LBC/PASC GPU Miner v10.2      บ
+01:00:28:989	f88	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+01:00:28:994	f88	
+01:00:29:200	f88	ETH: 1 pool is specified
+01:00:29:212	f88	Main Ethereum pool is us1.ethermine.org:4444
+01:00:29:228	f88	DCR: 0 pool is specified
+01:00:29:541	f88	OpenCL platform: Intel(R) OpenCL
+01:00:29:545	f88	OpenCL platform: NVIDIA CUDA
+01:00:29:548	f88	AMD OpenCL platform not found 
+01:00:30:186	f88	CUDA initializing...
+
+01:00:30:262	f88	NVIDIA Cards available: 1 
+01:00:30:271	f88	CUDA Driver Version/Runtime Version: 8.0/8.0
+01:00:30:282	f88	GPU #0: GeForce 840M, 2048 MB available, 3 compute units, capability: 5.0
+
+01:00:30:294	f88	Total cards: 1 
+01:00:34:310	f88	No AMD cards in the list, ADL library will not be used.
+01:00:34:541	f88	NVML version: 8.369.09
+01:00:34:685	1de8	ETH: Stratum - connecting to 'us1.ethermine.org' <149.56.26.221> port 4444
+01:00:34:776	f88	No pool specified for Decred! Ethereum-only mining mode is enabled
+01:00:34:790	f88	ETHEREUM-ONLY MINING MODE ENABLED (-mode 1)
+01:00:34:804	f88	ETH: eth-proxy stratum mode
+01:00:34:817	f88	Watchdog enabled
+01:00:34:832	f88	Remote management (READ-ONLY MODE) is enabled on port 3333
+01:00:34:846	f88	
+01:00:35:008	1de8	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0xB8C788fBc71a9B8d17Fd8E8bC6915CC8579E3281.Rig1", "x"], "id": 2, "method": "eth_submitLogin"}
+
+01:00:35:023	1de8	ETH: Stratum - Connected (us1.ethermine.org:4444)
+01:00:35:248	17cc	NVML: cannot get fan speed, error 3
+01:00:35:287	1de8	got 39 bytes
+01:00:35:300	1de8	buf: {"id":2,"jsonrpc":"2.0","result":true}
+
+01:00:35:309	1de8	parse packet: 38
+01:00:35:316	1de8	ETH: Authorized
+01:00:35:325	1de8	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+01:00:35:333	1de8	new buf size: 0
+01:00:35:661	1de8	got 248 bytes
+01:00:35:772	1de8	buf: {"id":3,"jsonrpc":"2.0","result":["0xa16a5d3898b4a19bb2c94b76a4f389ab9b2f06804f424fa7411722ef2c1dfd26","0x7b1e42ac7d205c8da33a3dea0e5fd6aa0261c13f0a8e451454721085d1323eec","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x477a9c"]}
+
+01:00:35:788	1de8	parse packet: 247
+01:00:35:869	1de8	ETH: job changed
+01:00:35:875	1de8	new buf size: 0
+01:00:35:881	1de8	got 248 bytes
+01:00:35:887	1de8	buf: {"id":0,"jsonrpc":"2.0","result":["0xa16a5d3898b4a19bb2c94b76a4f389ab9b2f06804f424fa7411722ef2c1dfd26","0x7b1e42ac7d205c8da33a3dea0e5fd6aa0261c13f0a8e451454721085d1323eec","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x477a9c"]}
+
+01:00:35:894	1de8	parse packet: 247
+01:00:35:900	1de8	ETH: job is the same
+01:00:35:906	1de8	new buf size: 0
+01:00:36:008	1908	Setting DAG epoch #156...
+01:00:38:281	17cc	NVML: cannot get fan speed, error 3
+01:00:38:317	1908	Setting DAG epoch #156 for GPU0
+01:00:38:323	1908	Create GPU buffer for GPU0
+01:00:38:329	1908	CUDA error - cannot allocate big buffer for DAG. Check readme.txt for possible solutions.
+01:00:41:286	17cc	NVML: cannot get fan speed, error 3
+01:00:41:335	1908	Set global fail flag, failed GPU0
+01:00:41:346	1908	GPU 0 failed
+01:00:41:344	2044	Setting DAG epoch #156 for GPU0
+01:00:41:362	2044	GPU 0, CUDA error 11 - cannot write buffer for DAG
+01:00:42:668	1de8	got 248 bytes
+01:00:42:680	1de8	buf: {"id":0,"jsonrpc":"2.0","result":["0x0e107c86e42d2ed2b12b9451dfc64ca08fcab61a9359084df8ec1d3a88a42a25","0x7b1e42ac7d205c8da33a3dea0e5fd6aa0261c13f0a8e451454721085d1323eec","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x477a9d"]}
+
+01:00:42:750	1de8	parse packet: 247
+01:00:42:763	1de8	ETH: job changed
+01:00:42:775	1de8	new buf size: 0
+01:00:42:781	1de8	ETH: 12/06/17-01:00:42 - New job from us1.ethermine.org:4444
+01:00:42:787	1de8	target: 0x0000000112e0be82 (diff: 4000MH), epoch 156(2.22GB)
+01:00:42:794	1de8	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+01:00:42:800	1de8	ETH: GPU0 0.000 Mh/s
+01:00:44:299	17cc	NVML: cannot get fan speed, error 3
+01:00:44:372	2044	Set global fail flag, failed GPU0
+01:00:44:385	2044	GPU 0 failed
+01:00:45:895	1de8	ETH: checking pool connection...
+01:00:45:909	1de8	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+01:00:46:171	1de8	got 248 bytes
+01:00:46:184	1de8	buf: {"id":3,"jsonrpc":"2.0","result":["0x0e107c86e42d2ed2b12b9451dfc64ca08fcab61a9359084df8ec1d3a88a42a25","0x7b1e42ac7d205c8da33a3dea0e5fd6aa0261c13f0a8e451454721085d1323eec","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x477a9d"]}
+
+01:00:46:196	1de8	parse packet: 247
+01:00:46:203	1de8	ETH: job is the same
+01:00:46:210	1de8	new buf size: 0
+01:00:47:314	17cc	NVML: cannot get fan speed, error 3
+01:00:47:367	1de8	got 248 bytes
+01:00:47:381	1de8	buf: {"id":0,"jsonrpc":"2.0","result":["0xf486b3705dc0d0a00de5a0875bf54a4cf269acbe3a8c6747fe840d24e097a016","0x7b1e42ac7d205c8da33a3dea0e5fd6aa0261c13f0a8e451454721085d1323eec","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x477a9d"]}
+
+01:00:47:394	1de8	parse packet: 247
+01:00:47:409	1de8	ETH: job changed
+01:00:47:423	1de8	new buf size: 0
+01:00:47:431	1de8	ETH: 12/06/17-01:00:47 - New job from us1.ethermine.org:4444
+01:00:47:440	1de8	target: 0x0000000112e0be82 (diff: 4000MH), epoch 156(2.22GB)
+01:00:47:447	1de8	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+01:00:47:456	1de8	ETH: GPU0 0.000 Mh/s
+01:00:50:330	17cc	NVML: cannot get fan speed, error 3
+01:00:53:345	17cc	NVML: cannot get fan speed, error 3
+01:00:55:174	1de8	got 248 bytes
+01:00:55:178	1de8	buf: {"id":0,"jsonrpc":"2.0","result":["0xa3464895c923d1f734ab1426c5cdc5b2fc8cef273fc4d8bfa23b281aaee4ff37","0x7b1e42ac7d205c8da33a3dea0e5fd6aa0261c13f0a8e451454721085d1323eec","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x477a9e"]}
+
+01:00:55:185	1de8	parse packet: 247
+01:00:55:191	1de8	ETH: job changed
+01:00:55:196	1de8	new buf size: 0
+01:00:55:200	1de8	ETH: 12/06/17-01:00:55 - New job from us1.ethermine.org:4444
+01:00:55:206	1de8	target: 0x0000000112e0be82 (diff: 4000MH), epoch 156(2.22GB)
+01:00:55:212	1de8	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+01:00:55:218	1de8	ETH: GPU0 0.000 Mh/s
+01:00:55:897	1de8	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x0", "0x000000000000000000000000000000000000000000000000000000000c148d72"]}
+
+01:00:55:927	1de8	ETH: checking pool connection...
+01:00:55:935	1de8	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+01:00:56:158	1de8	got 39 bytes
+01:00:56:171	1de8	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+01:00:56:183	1de8	parse packet: 38
+01:00:56:191	1de8	new buf size: 0
+01:00:56:404	1de8	got 248 bytes
+01:00:56:418	1de8	buf: {"id":3,"jsonrpc":"2.0","result":["0xa3464895c923d1f734ab1426c5cdc5b2fc8cef273fc4d8bfa23b281aaee4ff37","0x7b1e42ac7d205c8da33a3dea0e5fd6aa0261c13f0a8e451454721085d1323eec","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x477a9e"]}
+
+01:00:56:430	1de8	parse packet: 247
+01:00:56:438	1de8	ETH: job is the same
+01:00:56:446	1de8	new buf size: 0
+01:00:56:570	17cc	NVML: cannot get fan speed, error 3
+01:00:59:365	261c	em hbt: 0, fm hbt: 110, 
+01:00:59:379	261c	watchdog - thread 0 (gpu0), hb time 18000
+01:00:59:393	261c	watchdog - thread 1 (gpu0), hb time 18015
+01:01:35:358	261c	WATCHDOG: GPU error, you need to restart miner :( 
+01:01:35:364	17cc	NVML: cannot get fan speed, error 3
+01:01:05:958	1de8	ETH: checking pool connection...
+01:01:35:375	1de8	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+01:01:35:575	17cc	NVML: cannot get fan speed, error 3
+01:01:35:583	17cc	GPU0 t=46C fan=0%
+01:01:35:590	261c	NVML: cannot get fan speed, error 3
+01:01:36:698	261c	Restarting OK, exit...
+
+
